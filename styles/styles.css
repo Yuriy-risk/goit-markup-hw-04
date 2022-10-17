@@ -582,11 +582,15 @@ fill: #AFB1B8;
   /* background-color: green; */
   border: 1px solid #2196F3;
 }
+.soc-item:focus{
+  /* background-color: green; */
+  border: 1px solid #2196F3;
+}
 .soc-item:hover .net-icon{
   /* color: green; */
   fill: #188ce8;
  /* background-color: rgb(15, 69, 139); */
- 
+
 }
 
 

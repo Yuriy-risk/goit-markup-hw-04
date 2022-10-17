@@ -527,8 +527,10 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-
-  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-content-clients {
@@ -560,10 +562,13 @@ font-style: normal; */
   height: 92px;
   display: block;
   /* background-color: #188ce8; */
-
   
 border: 1px solid #AFB1B8;
 border-radius: 4px;
+
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .container-ico-main-content-team {
@@ -586,18 +591,32 @@ border-radius: 4px;
 .soc-item-one {
   width: 44px;
   height: 44px;
-  display: block;
-  /* background-color: #188ce8; */
-  background: rgba(255, 255, 255, 0.1);
+  /* display: block; */
+  background-color: rgba(255, 255, 255, 0.1);
+
+  /* background: rgba(255, 255, 255, 0.1); */
   border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
 }
+/* .net-icon{
+
+} */
 .soc-item-too{
   width: 44px;
-  height: 44px;
-  display: block;
+  /* height: 44px;
+  display: block; */
   /* background-color: #188ce8; */
-  background: #2196F3;
+  /* background: #2196F3; */
   border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer-ico-content {
   margin-top: 0px;
@@ -622,4 +641,6 @@ border-radius: 4px;
 .footer-all{
   display:flex
 }
-
+.net-mail-tel-icon{
+margin-right: 10px;
+}

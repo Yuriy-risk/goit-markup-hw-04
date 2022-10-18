@@ -561,7 +561,7 @@ font-style: normal; */
 .soc-item {
   width: 170px;
   height: 92px;
-  display: block;
+  /* display: block; */
   /* background-color: #188ce8; */
   
 border: 1px solid #AFB1B8;
@@ -590,6 +590,12 @@ fill: #AFB1B8;
 }
 
 
+
+
+
+.header-menu-studiy:hover .net-mail-tel-icon{
+  fill: #2196F3;
+}
 
 .container-ico-main-content-team {
   /* background-color: green; */
@@ -622,15 +628,42 @@ fill: #AFB1B8;
   justify-content: center;
 }
 .soc-item-one:hover{
-    background-color: #2196F3;
+    background-color:#2196F3;
 }
 .soc-item-one:focus{
   background-color: #2196F3;
 }
 
+.net-icon-team{
+  fill: #AFB1B8;
+}
+.soc-item-one:hover .net-icon-team{
+  fill: #ffffff;
+}
 
 
+.soc-item-one-footer{
+  width: 44px;
+  height: 44px;
+  /* display: block; */
+  background-color: rgba(255, 255, 255, 0.1);
 
+  /* background: rgba(255, 255, 255, 0.1); */
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.soc-item-one-footer:hover{
+  background-color: #2196F3;
+}
+.soc-item-one-footer:focus{
+  background-color: #2196F3;
+}
+.net-icon-footer{
+  fill: #FFFFFF;
+}
 .soc-item-too{
   width: 44px;
   /* height: 44px;

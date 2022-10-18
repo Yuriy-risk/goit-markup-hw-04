@@ -436,7 +436,6 @@ a {
 .header-Web-container {
   margin-bottom: 20px;
   /* padding-top: 60px; */
-  
 }
 .header-Web-adress-container {
   margin-bottom: 9px;
@@ -528,7 +527,7 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -563,38 +562,32 @@ font-style: normal; */
   height: 92px;
   /* display: block; */
   /* background-color: #188ce8; */
-  
-border: 1px solid #AFB1B8;
-border-radius: 4px;
 
-display: flex;
-align-items: center;
-justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-.net-icon{
+.net-icon {
   /* background-color: green; */
-fill: #AFB1B8;
+  fill: #afb1b8;
 }
-.soc-item:hover{
+.soc-item:hover {
   /* background-color: green; */
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
-.soc-item:hover .net-icon{
+.soc-item:hover .net-icon {
   /* color: green; */
   fill: #188ce8;
- /* background-color: rgb(15, 69, 139); */
+  /* background-color: rgb(15, 69, 139); */
 }
 
-
-
-
-
-.header-menu-studiy:hover .net-mail-tel-icon{
-  fill: #2196F3;
+.header-menu-studiy:hover .net-mail-tel-icon {
+  fill: #2196f3;
 }
 
 .container-ico-main-content-team {
@@ -610,9 +603,6 @@ fill: #AFB1B8;
   display: flex;
   /* justify-content: center; */
   gap: 10px;
-
-
-
 }
 .soc-item-one {
   width: 44px;
@@ -627,22 +617,21 @@ fill: #AFB1B8;
   align-items: center;
   justify-content: center;
 }
-.soc-item-one:hover{
-    background-color:#2196F3;
+.soc-item-one:hover {
+  background-color: #2196f3;
 }
-.soc-item-one:focus{
-  background-color: #2196F3;
+.soc-item-one:focus {
+  background-color: #2196f3;
 }
 
-.net-icon-team{
-  fill: #AFB1B8;
+.net-icon-team {
+  fill: #afb1b8;
 }
-.soc-item-one:hover .net-icon-team{
+.soc-item-one:hover .net-icon-team {
   fill: #ffffff;
 }
 
-
-.soc-item-one-footer{
+.soc-item-one-footer {
   width: 44px;
   height: 44px;
   /* display: block; */
@@ -653,18 +642,18 @@ fill: #AFB1B8;
 
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
-.soc-item-one-footer:hover{
-  background-color: #2196F3;
+.soc-item-one-footer:hover {
+  background-color: #2196f3;
 }
-.soc-item-one-footer:focus{
-  background-color: #2196F3;
+.soc-item-one-footer:focus {
+  background-color: #2196f3;
 }
-.net-icon-footer{
-  fill: #FFFFFF;
+.net-icon-footer {
+  fill: #ffffff;
 }
-.soc-item-too{
+.soc-item-too {
   width: 44px;
   /* height: 44px;
   display: block; */
@@ -691,14 +680,14 @@ fill: #AFB1B8;
   color: #ffffff;
 }
 .footer-ico-content-too {
-/* background-color: green; */
+  /* background-color: green; */
 
- margin-top: 12px;
- margin-left: 70px;
+  margin-top: 12px;
+  margin-left: 70px;
 }
-.footer-all{
-  display:flex
+.footer-all {
+  display: flex;
 }
-.net-mail-tel-icon{
-margin-right: 10px;
+.net-mail-tel-icon {
+  margin-right: 10px;
 }

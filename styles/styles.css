@@ -137,7 +137,12 @@ ul {
   /* увеличение кликабельной зоны */
   padding: 32px 0;
   display: block;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
+
 .header-menu-studiy:hover {
   color: var(--Header-menu-hover-color);
 }
@@ -339,7 +344,7 @@ ul {
 
   color: var(--Main-content-team-paragraph-color);
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
   text-align: center;
 }
 .main-menu-img {
@@ -506,8 +511,12 @@ img {
   /* background-color: #2f303a; */
 
   background-image: url(../img/Img.jpg);
+  background-image: rgba(47, 48, 58, 0.4); 
   background-repeat: no-repeat;
   background-position: center;
+
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .header-next-styl {
   padding: 94px 0px;
@@ -548,10 +557,10 @@ font-style: normal; */
   display: flex;
   justify-content: center;
 }
-.container-third-clients {
-  /* background-color: green; */
+.section-third-clients{
   padding: 94px 0;
 }
+
 .container-clients {
   display: flex;
   justify-content: center;
@@ -574,8 +583,15 @@ font-style: normal; */
 .net-icon {
   /* background-color: green; */
   fill: #afb1b8;
+
+  /* padding: 18px 32px;
+  display: block; */
 }
 .soc-item:hover {
+  /* background-color: green; */
+  border: 1px solid #2196f3;
+}
+.soc-item:focus {
   /* background-color: green; */
   border: 1px solid #2196f3;
 }
@@ -584,16 +600,40 @@ font-style: normal; */
   /* color: green; */
   fill: #188ce8;
   /* background-color: rgb(15, 69, 139); */
+  padding: 22px 32px;
+  display: block;
 }
-
+.soc-item:focus .net-icon {
+  /* color: green; */
+  fill: #188ce8;
+  /* background-color: rgb(15, 69, 139); */
+  padding: 18px 32px;
+  display: block;
+}
 .header-menu-studiy:hover .net-mail-tel-icon {
   fill: #2196f3;
 }
 
-.container-ico-main-content-team {
+.soc-item:focus {
   /* background-color: green; */
-  padding-top: 16px;
+  border: 1px solid #2196f3;
 }
+
+.soc-item:focus .net-icon {
+  /* color: green; */
+  fill: #188ce8;
+  /* background-color: rgb(15, 69, 139); */
+}
+
+.header-menu-studiy:focus .net-mail-tel-icon {
+  fill: #2196f3;
+}
+
+
+/* .container-ico-main-content-team {
+
+  padding-top: 16px;
+} */
 .ico-main-content-team {
   display: flex;
   justify-content: center;
@@ -601,8 +641,10 @@ font-style: normal; */
 }
 .footer-ico-main-content-team {
   display: flex;
-  /* justify-content: center; */
+  /* justify-content: center;
+  align-items: center; */
   gap: 10px;
+
 }
 .soc-item-one {
   width: 44px;
@@ -610,12 +652,13 @@ font-style: normal; */
   /* display: block; */
   background-color: rgba(255, 255, 255, 0.1);
 
-  /* background: rgba(255, 255, 255, 0.1); */
   border-radius: 50%;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  /* cursor: pointer; */
 }
 .soc-item-one:hover {
   background-color: #2196f3;
@@ -626,10 +669,17 @@ font-style: normal; */
 
 .net-icon-team {
   fill: #afb1b8;
+
+  padding: 12px 12px;
+  display: block;
+  border-radius: 50%;
 }
 .soc-item-one:hover .net-icon-team {
   fill: #ffffff;
 }
+/* .soc-item-one:focus .net-icon-team {
+  fill: #ffffff;
+} */
 
 .soc-item-one-footer {
   width: 44px;
@@ -643,6 +693,8 @@ font-style: normal; */
   display: flex;
   align-items: center;
   justify-content: center;
+
+
 }
 .soc-item-one-footer:hover {
   background-color: #2196f3;
@@ -652,13 +704,13 @@ font-style: normal; */
 }
 .net-icon-footer {
   fill: #ffffff;
+
+  padding: 10px 10px;
+  display: block;
+
 }
 .soc-item-too {
   width: 44px;
-  /* height: 44px;
-  display: block; */
-  /* background-color: #188ce8; */
-  /* background: #2196F3; */
   border-radius: 50%;
 
   display: flex;
@@ -682,12 +734,27 @@ font-style: normal; */
 .footer-ico-content-too {
   /* background-color: green; */
 
-  margin-top: 12px;
+  /* margin-top: 12px; */
   margin-left: 70px;
 }
 .footer-all {
   display: flex;
+  align-items: baseline;
 }
 .net-mail-tel-icon {
   margin-right: 10px;
 }
+.portfolio-container-deployed-shadow{
+display: block;
+
+}
+.portfolio-container-deployed-shadow:hover{
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-container-deployed-shadow:focus{
+    display: block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
